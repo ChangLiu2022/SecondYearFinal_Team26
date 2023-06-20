@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable filter="All Interfaces">
+  <columns>
+   <connections preferredWidth="143" />
+   <irq preferredWidth="34" />
+  </columns>
+ </systemtable>
+ <library
+   expandedCategories="Library/Basic Functions/Bridges and Adaptors/Memory Mapped,Library/Interface Protocols/Serial,Library/Qsys Interconnect/Memory-Mapped Alpha,Library/Memory Interfaces and Controllers/Flash,Library/Basic Functions/Simulation; Debug and Verification,Library/Basic Functions/On Chip Memory,Library/Basic Functions/DMA/mSGDMA Sub-core,Library/Interface Protocols/Transceiver PHY,Library/Memory Interfaces and Controllers,Library/Qsys Interconnect,Library/Basic Functions/Simulation; Debug and Verification/Verification,Library/Processors and Peripherals/Co-Processors/Nios II Custom Instructions,Library/Basic Functions/Simulation; Debug and Verification/Debug and Performance,Library/Basic Functions/Bridges and Adaptors,Library/University Program/Audio &amp; Video,Project,Library/Interface Protocols,Library/Processors and Peripherals/Inter-Process Communication,Library/Basic Functions/Bridges and Adaptors/Streaming,Library/Interface Protocols/Audio &amp; Video,Library/Qsys Interconnect/Memory-Mapped,Library/University Program/Bridges,Library/University Program/Generic IO,Library/Interface Protocols/Ethernet/10G to 1G Multi-rate Ethernet,Library/DSP/Video and Image Processing,Library/Basic Functions/Simulation; Debug and Verification/Simulation,Library/Processors and Peripherals/Peripherals,Library/Basic Functions/Clocks; PLLs and Resets,Library/Interface Protocols/PCI Express,Library/Interface Protocols/RapidIO,Project/Terasic Technologies Inc,Library/Basic Functions/Arithmetic,Library/Qsys Interconnect/Interrupt,Library/University Program/Audio &amp; Video/Video,Library/Memory Interfaces and Controllers/Memory Interfaces with UniPHY,Library/Basic Functions,Library/Qsys Interconnect/Tri-State Components,Library/Interface Protocols/Ethernet,Library/Interface Protocols/Transceiver PLL,Library/Basic Functions/DMA,Library/DSP/Error Detection and Correction,Library/Basic Functions/Configuration and Programming,Library/DSP,Library/University Program/Clock,Library/Processors and Peripherals/Co-Processors,Library/University Program/Communications,Library/University Program/Memory,Library/Tri-State Components,Library/Processors and Peripherals,Library/University Program,Library/Interface Protocols/PCI Express/QSYS Example Designs,Library" />
+ <window width="1920" height="1020" x="0" y="0" />
+</preferences>
