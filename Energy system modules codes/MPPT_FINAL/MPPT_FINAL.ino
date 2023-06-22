@@ -77,7 +77,7 @@ void loop() {
       }
       else if (mppt) { //MPPT control
         duty_cycle = MPPT(Vi, iL, P_previous);
-        duty_cycle = saturate(duty_cycle, 0.99, 0.01); //Maximum duty cycle: 0.99, minimum duty cycle: 0.01
+        duty_cycle = saturate(duty_cycle, 0.99, 0.2); //Maximum duty cycle: 0.99, minimum duty cycle: 0.01
         pwm_modulate(duty_cycle); // and send it out
       }
       else { // Open Loop Boost
