@@ -48,8 +48,8 @@ int count = 0;
 int mode, turn_dir, move_dir;
 std::string MOVE_DIR, TURN_DIR;
 
-#define pw 0.2412743158
-#define pl 0.4492477495
+#define pw 0.2412743158 // Circumference of the wheel
+#define pl 0.4492477495 // Circumference of the base rotated about its center
 
 //ESP32 duo core operation setup
 TaskHandle_t Task1;
