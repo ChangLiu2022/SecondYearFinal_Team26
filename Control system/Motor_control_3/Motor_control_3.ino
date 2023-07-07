@@ -320,7 +320,7 @@ void balance() { // CHECK EQUILIBRIUM POINT FIRST!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
   W = P(theta, 0 - Theta, 100, 1e6, -1e6); // Duo loop control strategy 100; 340; 100; -4.5 with cable <== gains that would work
   sps1 = PI1(w * 360 / pi2, W, 14, 140, 0, 360 * 16, -360 * 16); // (2.2, 0.1, ?); (14, 140, ?) <== combinations of gains that would work
   motor1.setSpeed(sps1 + offset); // Apply a veloity difference between 2 wheels
-  motor2.setSpeed(-sps1 + offset);
+  motor2.setSpeed(-sps1 + offset); // When not turning, offset is set to 0
   motor1.runSpeed();
   motor2.runSpeed();
 }
